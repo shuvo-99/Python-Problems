@@ -1,0 +1,13 @@
+#Write Python code of a program that reads the radius of a circle and prints its circumference and area.
+
+import math
+
+'''Start your Code from the Line Below'''
+radius = float(input('Please enter the value of radius :' ))
+
+circumference = 2*math.pi*radius
+
+print('circumference of circle = %.2f'%circumference) 
+ 
+area = math.pi*(radius*radius)
+print("the area is = %.2f"%area)
