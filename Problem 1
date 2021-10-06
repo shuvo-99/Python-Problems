@@ -1,0 +1,20 @@
+#Write Python code of a program that reads two numbers from the user, and prints their sum, product, and difference.
+
+var_1 = input('Please Enter Your First Number')
+var_2 = input('Please Enter Your Second Number')
+
+print(type(var_1))
+print(type(var_2))
+
+var_3 = int(var_1)
+var_4 = int(var_2)
+
+sum = var_3+var_4
+
+product = var_3*var_4
+
+difference = var_4-var_3
+
+print(sum)
+print(product)
+print(difference)
