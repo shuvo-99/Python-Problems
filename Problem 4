@@ -1,0 +1,11 @@
+#Write Python code of a program that reads two numbers, subtracts the smaller number from the larger one, and prints the result.
+
+num1 = float(input("Enter first number = "))
+num2 = float(input("Enter second number = "))
+if num1>num2 :
+    result = num1-num2
+    print("Result =",result)
+
+else :
+    result = num2- num1
+    print ("Result = ",result)
