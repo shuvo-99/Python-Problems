@@ -1,0 +1,10 @@
+# Write Python code of a program that reads an integer, and prints the integer if it is a multiple of 2 and 5.
+
+#For example, 10, 20, 30, 40, 50 …
+
+num = int(input("Enter the number = "))
+if (num%2==0 and num%5==0) :
+    print("The integer is = ",num)
+    
+else :
+    print("The integer is not correct",)
